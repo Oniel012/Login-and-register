@@ -1,0 +1,11 @@
+@page "/"
+@using TesorosApp.Components
+<AuthorizeView>
+    <Authorized>
+        <Principal></Principal>
+
+    </Authorized>
+    <NotAuthorized>
+        <h3>¿Que esperas para guardar tus tesoros? !Inicia Seccion!</h3>
+    </NotAuthorized>
+</AuthorizeView>
